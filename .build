@@ -5,6 +5,7 @@ Timemanager.Mailer.html
 Timemanager.Repo.html
 Timemanager.Roles.Role.html
 Timemanager.Roles.html
+Timemanager.Tokens.html
 Timemanager.Users.User.html
 Timemanager.Users.html
 Timemanager.Workingtimes.Workingtime.html
@@ -20,6 +21,8 @@ TimemanagerWeb.ErrorJSON.html
 TimemanagerWeb.FallbackController.html
 TimemanagerWeb.Gettext.html
 TimemanagerWeb.Layouts.html
+TimemanagerWeb.LoginController.html
+TimemanagerWeb.LoginJSON.html
 TimemanagerWeb.PageController.html
 TimemanagerWeb.PageHTML.html
 TimemanagerWeb.RoleController.html
@@ -59,7 +62,7 @@ dist/merriweather-latin-ext-300-normal-K6L27CZ5.woff2
 dist/merriweather-vietnamese-300-italic-EHHNZPUO.woff2
 dist/merriweather-vietnamese-300-normal-U376L4Z4.woff2
 dist/remixicon-NKANDIL5.woff2
-dist/search_data-4EABBBAC.js
-dist/sidebar_items-728507F4.js
+dist/search_data-6D8E4812.js
+dist/sidebar_items-904B6621.js
 index.html
 search.html

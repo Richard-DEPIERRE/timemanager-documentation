@@ -7,7 +7,7 @@
     <meta name="generator" content="ExDoc v0.30.9">
     <meta name="project" content="timemanager v0.1.0">
 
-    <title>TimemanagerWeb.WorkingtimeJSON — timemanager v0.1.0</title>
+    <title>Timemanager.Tokens — timemanager v0.1.0</title>
     <link rel="stylesheet" href="dist/html-elixir-XFYN5IVA.css" />
 
 
@@ -111,11 +111,15 @@ Pages
 </button>
 
 
-  <span translate="no">TimemanagerWeb.WorkingtimeJSON</span> 
+  <span translate="no">Timemanager.Tokens</span> 
   <small class="app-vsn" translate="no">(timemanager v0.1.0)</small>
 
 </h1>
 
+
+  <section id="moduledoc">
+<p>The Tokens context.</p>
+  </section>
 
 
   <section id="summary" class="details-list">
@@ -132,21 +136,57 @@ Pages
 
     <div class="summary-row">
       <div class="summary-signature">
-        <a href="#index/1" translate="no">index(map)</a>
+        <a href="#call/2" translate="no">call(conn, opts)</a>
 
       </div>
-
-        <div class="summary-synopsis"><p>Renders a list of workingtimes.</p></div>
 
     </div>
 
     <div class="summary-row">
       <div class="summary-signature">
-        <a href="#show/1" translate="no">show(map)</a>
+        <a href="#check_token/1" translate="no">check_token(conn)</a>
 
       </div>
 
-        <div class="summary-synopsis"><p>Renders a single workingtime.</p></div>
+        <div class="summary-synopsis"><p>check validity of token and age of token</p></div>
+
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-signature">
+        <a href="#from_request/1" translate="no">from_request(conn)</a>
+
+      </div>
+
+        <div class="summary-synopsis"><p>Returns the token in the header of conn</p></div>
+
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-signature">
+        <a href="#get_decoded_token/1" translate="no">get_decoded_token(conn)</a>
+
+      </div>
+
+        <div class="summary-synopsis"><p>Returns the token decoded in the header of conn</p></div>
+
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-signature">
+        <a href="#get_req_header/2" translate="no">get_req_header(conn, key)</a>
+
+      </div>
+
+        <div class="summary-synopsis"><p>Returns the value of the given key in the request headers.</p></div>
+
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-signature">
+        <a href="#init/1" translate="no">init(arg)</a>
+
+      </div>
 
     </div>
 
@@ -163,38 +203,106 @@ Pages
       <span class="text">Functions</span>
     </h1>
     <div class="functions-list">
-<section class="detail" id="index/1">
+<section class="detail" id="call/2">
 
   <div class="detail-header">
-    <a href="#index/1" class="detail-link" title="Link to this function">
+    <a href="#call/2" class="detail-link" title="Link to this function">
       <i class="ri-link-m" aria-hidden="true"></i>
       <span class="sr-only">Link to this function</span>
     </a>
-    <h1 class="signature" translate="no">index(map)</h1>
+    <h1 class="signature" translate="no">call(conn, opts)</h1>
 
 
   </div>
 
   <section class="docstring">
 
-<p>Renders a list of workingtimes.</p>
+
   </section>
 </section>
-<section class="detail" id="show/1">
+<section class="detail" id="check_token/1">
 
   <div class="detail-header">
-    <a href="#show/1" class="detail-link" title="Link to this function">
+    <a href="#check_token/1" class="detail-link" title="Link to this function">
       <i class="ri-link-m" aria-hidden="true"></i>
       <span class="sr-only">Link to this function</span>
     </a>
-    <h1 class="signature" translate="no">show(map)</h1>
+    <h1 class="signature" translate="no">check_token(conn)</h1>
 
 
   </div>
 
   <section class="docstring">
 
-<p>Renders a single workingtime.</p>
+<p>check validity of token and age of token</p>
+  </section>
+</section>
+<section class="detail" id="from_request/1">
+
+  <div class="detail-header">
+    <a href="#from_request/1" class="detail-link" title="Link to this function">
+      <i class="ri-link-m" aria-hidden="true"></i>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature" translate="no">from_request(conn)</h1>
+
+
+  </div>
+
+  <section class="docstring">
+
+<p>Returns the token in the header of conn</p>
+  </section>
+</section>
+<section class="detail" id="get_decoded_token/1">
+
+  <div class="detail-header">
+    <a href="#get_decoded_token/1" class="detail-link" title="Link to this function">
+      <i class="ri-link-m" aria-hidden="true"></i>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature" translate="no">get_decoded_token(conn)</h1>
+
+
+  </div>
+
+  <section class="docstring">
+
+<p>Returns the token decoded in the header of conn</p>
+  </section>
+</section>
+<section class="detail" id="get_req_header/2">
+
+  <div class="detail-header">
+    <a href="#get_req_header/2" class="detail-link" title="Link to this function">
+      <i class="ri-link-m" aria-hidden="true"></i>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature" translate="no">get_req_header(conn, key)</h1>
+
+
+  </div>
+
+  <section class="docstring">
+
+<p>Returns the value of the given key in the request headers.</p>
+  </section>
+</section>
+<section class="detail" id="init/1">
+
+  <div class="detail-header">
+    <a href="#init/1" class="detail-link" title="Link to this function">
+      <i class="ri-link-m" aria-hidden="true"></i>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature" translate="no">init(arg)</h1>
+
+
+  </div>
+
+  <section class="docstring">
+
+
   </section>
 </section>
 

@@ -13,7 +13,7 @@
 
     <script src="dist/handlebars.runtime-NWIB6V2M.js"></script>
     <script src="dist/handlebars.templates-EPF2X7PV.js"></script>
-    <script src="dist/sidebar_items-728507F4.js"></script>
+    <script src="dist/sidebar_items-904B6621.js"></script>
 
       <script src="docs_config.js"></script>
 
@@ -136,6 +136,8 @@ Pages
 
       </div>
 
+        <div class="summary-synopsis"><p>Create a new clock.</p></div>
+
     </div>
 
     <div class="summary-row">
@@ -143,6 +145,28 @@ Pages
         <a href="#delete/2" translate="no">delete(conn, map)</a>
 
       </div>
+
+        <div class="summary-synopsis"><p>Delete a specific clock.</p></div>
+
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-signature">
+        <a href="#get_last_clock/2" translate="no">get_last_clock(conn, map)</a>
+
+      </div>
+
+        <div class="summary-synopsis"><p>  Get last clock from user with id user given</p></div>
+
+    </div>
+
+    <div class="summary-row">
+      <div class="summary-signature">
+        <a href="#get_last_clock_with_token/2" translate="no">get_last_clock_with_token(conn, params)</a>
+
+      </div>
+
+        <div class="summary-synopsis"><p>  Get last clock from user with id user from token</p></div>
 
     </div>
 
@@ -152,13 +176,17 @@ Pages
 
       </div>
 
+        <div class="summary-synopsis"><p>List all clocks.</p></div>
+
     </div>
 
     <div class="summary-row">
       <div class="summary-signature">
-        <a href="#show/2" translate="no">show(conn, map)</a>
+        <a href="#show/2" translate="no">show(conn, params)</a>
 
       </div>
+
+        <div class="summary-synopsis"><p>Show a specific clock. with id user from token</p></div>
 
     </div>
 
@@ -168,6 +196,8 @@ Pages
 
       </div>
 
+        <div class="summary-synopsis"><p>Show a specific clock. with id user given</p></div>
+
     </div>
 
     <div class="summary-row">
@@ -175,6 +205,8 @@ Pages
         <a href="#update/2" translate="no">update(conn, map)</a>
 
       </div>
+
+        <div class="summary-synopsis"><p>Update a specific clock.</p></div>
 
     </div>
 
@@ -205,7 +237,7 @@ Pages
 
   <section class="docstring">
 
-
+<p>Create a new clock.</p>
   </section>
 </section>
 <section class="detail" id="delete/2">
@@ -222,7 +254,41 @@ Pages
 
   <section class="docstring">
 
+<p>Delete a specific clock.</p>
+  </section>
+</section>
+<section class="detail" id="get_last_clock/2">
 
+  <div class="detail-header">
+    <a href="#get_last_clock/2" class="detail-link" title="Link to this function">
+      <i class="ri-link-m" aria-hidden="true"></i>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature" translate="no">get_last_clock(conn, map)</h1>
+
+
+  </div>
+
+  <section class="docstring">
+
+<p>  Get last clock from user with id user given</p>
+  </section>
+</section>
+<section class="detail" id="get_last_clock_with_token/2">
+
+  <div class="detail-header">
+    <a href="#get_last_clock_with_token/2" class="detail-link" title="Link to this function">
+      <i class="ri-link-m" aria-hidden="true"></i>
+      <span class="sr-only">Link to this function</span>
+    </a>
+    <h1 class="signature" translate="no">get_last_clock_with_token(conn, params)</h1>
+
+
+  </div>
+
+  <section class="docstring">
+
+<p>  Get last clock from user with id user from token</p>
   </section>
 </section>
 <section class="detail" id="index/2">
@@ -239,7 +305,7 @@ Pages
 
   <section class="docstring">
 
-
+<p>List all clocks.</p>
   </section>
 </section>
 <section class="detail" id="show/2">
@@ -249,14 +315,14 @@ Pages
       <i class="ri-link-m" aria-hidden="true"></i>
       <span class="sr-only">Link to this function</span>
     </a>
-    <h1 class="signature" translate="no">show(conn, map)</h1>
+    <h1 class="signature" translate="no">show(conn, params)</h1>
 
 
   </div>
 
   <section class="docstring">
 
-
+<p>Show a specific clock. with id user from token</p>
   </section>
 </section>
 <section class="detail" id="show_clocks_from_user_id/2">
@@ -273,7 +339,7 @@ Pages
 
   <section class="docstring">
 
-
+<p>Show a specific clock. with id user given</p>
   </section>
 </section>
 <section class="detail" id="update/2">
@@ -290,7 +356,7 @@ Pages
 
   <section class="docstring">
 
-
+<p>Update a specific clock.</p>
   </section>
 </section>
 
